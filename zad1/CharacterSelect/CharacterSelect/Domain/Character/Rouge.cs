@@ -13,7 +13,8 @@ public sealed class Rogue : Entity.Character
         Agility = 15;
         Endurance = 10;
         Luck = 17;
-        Main_stat = this.Luck;
+        MainStat = this.Luck;
+        Atak = MainStat * 3;
         Special = "steal";
     }
 }

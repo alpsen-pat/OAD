@@ -13,7 +13,8 @@ public sealed class Healer : Entity.Character
         Agility = 15;
         Endurance = 10;
         Luck = 13;
-        Main_stat = this.Intelligence;
+        MainStat = this.Intelligence;
+        Atak = MainStat * 3;
         Special = "heal";
     }
 }

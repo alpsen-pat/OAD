@@ -13,7 +13,8 @@ public sealed class Archer : Entity.Character
         Agility = 21;
         Endurance = 12;
         Luck = 18;
-        Main_stat = this.Agility;
+        MainStat = this.Agility;
+        Atak = MainStat * 3;
         Special = "Critical hit";
     }
 }

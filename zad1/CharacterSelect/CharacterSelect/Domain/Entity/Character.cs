@@ -14,8 +14,9 @@ public abstract class Character
     public int Agility { get; protected set; }
     public int Endurance { get; protected set; }
     public int Luck { get; protected set; }
-    public int Main_stat { get; protected set; }
+    public int MainStat { get; protected set; }
     public string Special { get; protected set; }
+    public int Atak { get; protected set; }
 
     protected Character(string name, CharacterClass @class)
     {
@@ -33,7 +34,7 @@ public abstract class Character
 
     public virtual void Attack()
     {
-        Console.WriteLine($" {Main_stat*3} obrażeń");
+        Console.WriteLine($" {Atak} obrażeń");
     }
     public virtual void UseSpecial()
     {

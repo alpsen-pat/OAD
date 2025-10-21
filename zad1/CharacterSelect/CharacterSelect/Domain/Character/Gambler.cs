@@ -15,7 +15,8 @@ public sealed class Gambler : Entity.Character
         Endurance = 1;
         Random random = new Random();
         Luck = random.Next(0, 777);
-        Main_stat = this.Luck;
+        MainStat = this.Luck;
+        Atak = MainStat * 3;
         Special = "jackpot";
     }
 }
