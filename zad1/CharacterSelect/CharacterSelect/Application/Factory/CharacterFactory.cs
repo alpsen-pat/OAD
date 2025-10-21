@@ -15,7 +15,7 @@ public static class CharacterFactory
             CharacterClass.Rogue   => new Rogue(name ?? "Rogue"),
             CharacterClass.Healer   => new Healer(name ?? "Healer"),
             CharacterClass.Archer   => new Archer(name ?? "Archer"),
-            CharacterClass.Tank   => new Tank(name ?? "Tank"),
+            CharacterClass.Gambler   => new Gambler(name ?? "Gambler"),
             _ => throw new ArgumentOutOfRangeException(nameof(cls), "Nieznana klasa postaci.")
         };
     }

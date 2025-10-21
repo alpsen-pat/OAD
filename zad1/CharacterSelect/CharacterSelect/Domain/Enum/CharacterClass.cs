@@ -7,5 +7,5 @@ public enum CharacterClass
     Rogue = 3,
     Healer = 4,
     Archer = 5,
-    Tank = 6
+    Gambler = 6
 }

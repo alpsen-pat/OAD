@@ -7,9 +7,12 @@ public sealed class Healer : Entity.Character
 {
     public Healer(string name) : base(name, CharacterClass.Healer)
     {
-        Health = 80;
+        Health = 76;
         Strength = 4;
-        Intelligence = 16;
-        Agility = 10;
+        Intelligence = 19;
+        Agility = 15;
+        Endurance = 10;
+        Luck = 13;
+        Main_stat = 19;
     }
 }

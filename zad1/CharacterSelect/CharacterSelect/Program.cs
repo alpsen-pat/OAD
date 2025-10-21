@@ -19,7 +19,7 @@ namespace CharacterSelect
                 Console.WriteLine("3) Łotrzyk");
                 Console.WriteLine("4) Medyk");
                 Console.WriteLine("5) łucznik");
-                Console.WriteLine("6) Tank");
+                Console.WriteLine("6) Hazardzista");
                 Console.WriteLine("0) Wyjście");
                 Console.Write("Wybierz klasę [0-3]: ");
 
@@ -43,8 +43,8 @@ namespace CharacterSelect
                 Console.WriteLine(">>> Utworzono postać!");
                 character.Describe();
 
-                // Console.WriteLine("\nAkcja: atak");
-                // character.Attack();
+                Console.WriteLine("\nAkcja: atak");
+                character.Attack();
                 //
                 // Console.WriteLine("Akcja: umiejętność specjalna");
                 // character.UseSpecial();

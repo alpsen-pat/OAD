@@ -7,9 +7,12 @@ public sealed class Archer : Entity.Character
 {
     public Archer(string name) : base(name, CharacterClass.Archer)
     {
-        Health = 80;
+        Health = 67;
         Strength = 4;
-        Intelligence = 16;
-        Agility = 10;
+        Intelligence = 21;
+        Agility = 21;
+        Endurance = 12;
+        Luck = 18;
+        Main_stat = 21;
     }
 }

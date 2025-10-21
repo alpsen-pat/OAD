@@ -11,5 +11,8 @@ public sealed class Warrior : Entity.Character
         Strength = 14;
         Intelligence = 6;
         Agility = 8;
+        Endurance = 12;
+        Luck = 14;
+        Main_stat = 14;
     }
 }
