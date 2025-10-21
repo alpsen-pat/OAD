@@ -15,6 +15,7 @@ public abstract class Character
     public int Endurance { get; protected set; }
     public int Luck { get; protected set; }
     public int Main_stat { get; protected set; }
+    public string Special { get; protected set; }
 
     protected Character(string name, CharacterClass @class)
     {
@@ -34,5 +35,8 @@ public abstract class Character
     {
         Console.WriteLine($" {Main_stat*3} obrażeń");
     }
-    
+    public virtual void UseSpecial()
+    {
+        Console.WriteLine($" {Special} ");
+    }
 }

@@ -13,6 +13,7 @@ public sealed class Mage : Entity.Character
         Agility = 10;
         Endurance = 9;
         Luck = 15;
-        Main_stat = 16;
+        Main_stat = this.Intelligence;
+        Special = "fireball";
     }
 }

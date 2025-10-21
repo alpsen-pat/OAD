@@ -46,8 +46,8 @@ namespace CharacterSelect
                 Console.WriteLine("\nAkcja: atak");
                 character.Attack();
                 //
-                // Console.WriteLine("Akcja: umiejętność specjalna");
-                // character.UseSpecial();
+                Console.WriteLine("Akcja: umiejętność specjalna");
+                character.UseSpecial();
 
                 Console.WriteLine("\nChcesz utworzyć kolejną postać? (t/n): ");
                 var again = (Console.ReadLine() ?? "").Trim().ToLowerInvariant();

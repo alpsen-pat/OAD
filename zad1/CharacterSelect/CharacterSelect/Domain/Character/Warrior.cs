@@ -13,6 +13,7 @@ public sealed class Warrior : Entity.Character
         Agility = 8;
         Endurance = 12;
         Luck = 14;
-        Main_stat = 14;
+        Main_stat = this.Strength;
+        Special = "rage";
     }
 }
